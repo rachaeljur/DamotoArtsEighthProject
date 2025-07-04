@@ -1,0 +1,1009 @@
+* {
+
+  /* Reset styles for all elements Universal Selector */
+
+ 
+
+  margin: 0;
+
+  /* Remove default margin */
+
+ 
+
+  padding: 0;
+
+  /* Remove default padding */
+
+ 
+
+  box-sizing: border-box;
+
+  /* Include padding and border in element's total width and height */
+
+ 
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Change font family */
+
+}
+
+ 
+
+h1 {
+
+  /* Set styles for the main heading */
+
+ 
+
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+
+  /* Add a background image */
+
+ 
+
+  text-align: center;
+
+  /* Center the heading text */
+
+ 
+
+  margin: 20px 0;
+
+  /* Add margin above and below the heading */
+
+ 
+
+  font-size: 100px;
+
+  /* Set a larger font size for the main heading */
+
+ 
+
+  font-weight: bold;
+
+  /* Make the text bold*/
+
+ 
+
+  color: Khaki;
+
+  /* Change text color to Khaki */
+
+ 
+
+  border: 10px ridge #ccc;
+
+  /* Add a border around the heading */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+}
+
+ 
+
+h1 img {
+
+  /* Set styles for the image inside the main heading */
+
+ 
+
+  max-width: 100%;
+
+  /* Make the image responsive */
+
+ 
+
+  height: auto;
+
+  /* Maintain aspect ratio */
+
+ 
+
+  border-radius: 10px;
+
+  /* Add rounded corners */
+
+ 
+
+  border: 5px solid #ccc;
+
+  /* Add a border */
+
+ 
+
+  display: block;
+
+  /* Center the image */
+
+}
+
+ 
+
+nav {
+
+  /* Set styles for the navigation bar */
+
+ 
+
+  background-color: #333;
+
+  /* Dark background for contrast */
+
+ 
+
+  color: white;
+
+  /* White text for readability*/
+
+ 
+
+  text-align: center;
+
+  /* Center the navigation text */
+
+ 
+
+  padding: 10px;
+
+  /* Add padding for better spacing */
+
+ 
+
+  position: relative;
+
+  /* Position relative for proper layout */
+
+ 
+
+  top: 0;
+
+  /* Stick to the top of the page */
+
+ 
+
+  width: 100%;
+
+  /* Full width navigation */
+
+ 
+
+  border: 10px ridge #ccc;
+
+  /* Add a border */
+
+ 
+
+  display: inline-block;
+
+  /* Display navigation inline */
+
+ 
+
+  box-sizing: border-box;
+
+  /* Include padding and border in element's total width and height */
+
+ 
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Change font family */
+
+ 
+
+  font-size: 20px;
+
+  /* Change font size */
+
+ 
+
+  font-weight: bold;
+
+  /* Make the text bold */
+
+}
+
+ 
+
+li {
+
+  /* Set styles for list items */
+
+ 
+
+  display: inline;
+
+  /* Display list items inline */
+
+ 
+
+  margin-right: 20px;
+
+  /* Add space between list items */
+
+ 
+
+  color: white;
+
+  /* White text for readability */
+
+ 
+
+  text-decoration: none;
+
+  /* Remove underline from links */
+
+}
+
+ 
+
+nav ul {
+
+  /* Set styles for the unordered list in navigation */
+
+ 
+
+  list-style-type: none;
+
+  /* Remove bullet points from the list */
+
+ 
+
+  margin: 0;
+
+  /* Remove default margin */
+
+ 
+
+  padding: 0;
+
+  /* Remove default padding */
+
+ 
+
+  display: inline-block;
+
+  /* Display list items inline */
+
+}
+
+ 
+
+img {
+
+  /* Set styles for images */
+
+ 
+
+  max-width: 100%;
+
+  /* Make images responsive */
+
+ 
+
+  height: auto;
+
+  /* Maintain aspect ratio */
+
+ 
+
+  border-radius: 10px;
+
+  /* Add rounded corners */
+
+ 
+
+  border: 5px solid #ccc;
+
+  /* Add a border */
+
+ 
+
+  display: block;
+
+  /* Center the image */
+
+ 
+
+  position: relative;
+
+  /* Position relative for proper layout */
+
+ 
+
+  margin: 20px auto;
+
+  /* Center the image and add margin */
+
+}
+
+ 
+
+#main {
+
+  /* Set styles for the main content area */
+
+ 
+
+  max-width: 1200px;
+
+  /* Set a maximum width for the main content */
+
+ 
+
+  margin: 0 auto;
+
+  /* Center the main content */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+ 
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Change font family */
+
+}
+
+ 
+
+#Brushes {
+
+  /* Set styles for the Brushes section */
+
+ 
+
+  background-color: #f0f0f0;
+
+  /* Light background for contrast */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+ 
+
+  border-radius: 10px;
+
+  /* Add rounded corners */
+
+ 
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  /* Add a subtle shadow */
+
+ 
+
+  color: red;
+
+  /* Change text color to red */
+
+ 
+
+  font-weight: bold;
+
+  /* Make the text bold */
+
+ 
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Change font family */
+
+ 
+
+  text-align: left;
+
+  /* left the text */
+
+}
+
+ 
+
+#Brushes h2 {
+
+  /* Set styles for headings in the Brushes section */
+
+ 
+
+  border: 10px ridge #ccc;
+
+  /* Add a red border */
+
+ 
+
+  font-size: 26px;
+
+  /* Set a larger font size for headings */
+
+ 
+
+  margin-bottom: 10px;
+
+  /* Add space below headings */
+
+ 
+
+  font-weight: bold;
+
+  /* Make the text bold */
+
+ 
+
+  background-color: rosybrown;
+
+  /* Light background for contrast */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+}
+
+ 
+
+#Brushes p {
+
+  /* Set styles for paragraphs in the Brushes section */
+
+ 
+
+  color: #666;
+
+  /* Lighter color for paragraph text */
+
+ 
+
+  line-height: 1.6;
+
+  /* Increase line height for readability */
+
+ 
+
+  font-size: 22px;
+
+  /* Set a comfortable font size for paragraphs */
+
+ 
+
+  margin-bottom: 20px;
+
+  /* Add space below paragraphs */
+
+ 
+
+  text-align: justify;
+
+  /* Justify text for a cleaner look */
+
+}
+
+ 
+
+#Frames {
+
+  /* Set styles for the Frames section */
+
+ 
+
+  background-color: #f0f0f0;
+
+  /* Light background for contrast */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+ 
+
+  border-radius: 10px;
+
+  /* Add rounded corners */
+
+ 
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  /* Add a subtle shadow */
+
+ 
+
+  color: blue;
+
+  /* Change text color to blue */
+
+ 
+
+  font-weight: bold;
+
+  /* Make the text bold */
+
+ 
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Change font family */
+
+ 
+
+  text-align: left;
+
+  /* left the text */
+
+}
+
+ 
+
+#Frames h2 {
+
+  /* Set styles for headings in the Frames section */
+
+ 
+
+  border: 10px ridge #ccc;
+
+  /* Add a red border */
+
+ 
+
+  font-size: 26px;
+
+  /* Set a larger font size for headings */
+
+ 
+
+  margin-bottom: 10px;
+
+  /* Add space below headings */
+
+ 
+
+  font-weight: bold;
+
+  /* Make the text bold */
+
+ 
+
+  background-color: skyblue;
+
+  /* Light background for contrast */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+}
+
+ 
+
+#Frames p {
+
+  /* Set styles for paragraphs in the Frames section */
+
+ 
+
+  color: #666;
+
+  /* Lighter color for paragraph text */
+
+ 
+
+  line-height: 1.6;
+
+  /* Increase line height for readability */
+
+ 
+
+  font-size: 22px;
+
+  /* Set a comfortable font size for paragraphs */
+
+ 
+
+  margin-bottom: 20px;
+
+  /* Add space below paragraphs */
+
+ 
+
+  text-align: justify;
+
+  /* Justify text for a cleaner look */
+
+}
+
+ 
+
+#Paints {
+
+  /* Set styles for the Paints section */
+
+ 
+
+  background-color: #f0f0f0;
+
+  /* Light background for contrast */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+ 
+
+  border-radius: 10px;
+
+  /* Add rounded corners */
+
+ 
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  /* Add a subtle shadow */
+
+ 
+
+  color: seagreen;
+
+  /* Change text color to blue */
+
+ 
+
+  font-weight: bold;
+
+  /* Make the text bold */
+
+ 
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Change font family */
+
+ 
+
+  text-align: left;
+
+  /* left the text */
+
+}
+
+ 
+
+ 
+
+#Paints h2 {
+
+  /* Set styles for headings in the Paints section */
+
+ 
+
+  border: 10px ridge #ccc;
+
+  /* Add a red border */
+
+ 
+
+  font-size: 26px;
+
+  /* Set a larger font size for headings */
+
+ 
+
+  margin-bottom: 10px;
+
+  /* Add space below headings */
+
+ 
+
+  font-weight: bold;
+
+  /* Make the text bold */
+
+ 
+
+  background-color: cyan;
+
+  /* Light background for contrast */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+}
+
+ 
+
+#Paints p {
+
+  /* Set styles for paragraphs in the Paints section */
+
+ 
+
+  color: #666;
+
+  /* Lighter color for paragraph text */
+
+ 
+
+  line-height: 1.6;
+
+  /* Increase line height for readability */
+
+ 
+
+  font-size: 22px;
+
+  /* Set a comfortable font size for paragraphs */
+
+ 
+
+  margin-bottom: 20px;
+
+  /* Add space below paragraphs */
+
+ 
+
+  text-align: justify;
+
+  /* Justify text for a cleaner look */
+
+}
+
+ 
+
+ 
+
+#About h2 {
+
+  /* Set styles for headings in the About section */
+
+ 
+
+  color: #333;
+
+  /* Dark color for headings */
+
+ 
+
+  font-size: 26px;
+
+  /* Set a larger font size for headings */
+
+ 
+
+  margin-bottom: 10px;
+
+  /* Add space below headings */
+
+}
+
+ 
+
+#About p {
+
+  /* Set styles for paragraphs in the About section */
+
+ 
+
+  color: #666;
+
+  /* Lighter color for paragraph text */
+
+ 
+
+  line-height: 1.6;
+
+  /* Increase line height for readability */
+
+ 
+
+  font-size: 22px;
+
+  /* Set a comfortable font size for paragraphs */
+
+ 
+
+  font-weight: bold;
+
+  /* Make the text bold */
+
+ 
+
+  margin-bottom: 20px;
+
+  /* Add space below paragraphs */
+
+ 
+
+  text-align: justify;
+
+  /* Justify text for a cleaner look */
+
+ 
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Change font family */
+
+ 
+
+  border: 3px ridge rosybrown;
+
+  /* Add a border */
+
+}
+
+ 
+
+h3 {
+
+  /* Set styles for subheadings */
+
+ 
+
+  font-size: 24px;
+
+  /* Set a larger font size for headings */
+
+}
+
+ 
+
+footer {
+
+  /* Set styles for the footer */
+
+ 
+
+  background-color: #333;
+
+  /* Dark background for contrast */
+
+ 
+
+  color: white;
+
+  /* White text for readability */
+
+ 
+
+  text-align: center;
+
+  /* Center the footer text */
+
+ 
+
+  font-size: 18px;
+
+  /* Set a comfortable font size for footer */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+ 
+
+  position: relative;
+
+  /* Position relative for proper layout */
+
+ 
+
+  bottom: 0;
+
+  /* Stick to the bottom of the page */
+
+ 
+
+  width: 100%;
+
+  /* Full width footer */
+
+ 
+
+  border: 10px ridge #ccc;
+
+  /* Add a border */
+
+ 
+
+  padding: 20px;
+
+  /* Add padding for better spacing */
+
+}
+
+ 
+
+a:link {
+
+  /* Set styles for unvisited links */
+
+ 
+
+  color: orange;
+
+  /* Red color for links */
+
+ 
+
+  text-decoration: none;
+
+  /* Remove underline from links */
+
+}
+
+ 
+
+/* visited link */
+
+a:visited {
+
+  /* Set styles for visited links */
+
+ 
+
+  color: skyblue;
+
+  /* Change color for visited links */
+
+ 
+
+}
+
+ 
+
+/* mouse over link */
+
+a:hover {
+
+  /* Set styles for links when hovered over */
+
+ 
+
+  color: seagreen;
+
+  /* Change color on hover */
+
+}
+
+ 
+
+/* selected link */
+
+a:active {
+
+  /* Set styles for active links */
+
+ 
+
+  color: blue;
+
+  /* Change color for active links */
+
+}
+
+
